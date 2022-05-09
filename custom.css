@@ -1,0 +1,43 @@
+/* navbar */
+
+.navbar-collapse{
+    height: 5%;
+}
+
+
+.navbar-nav{
+    text-align: end;
+    font-size: 20px;
+}
+
+/* img baner */
+
+.carousel-caption{
+    width: 50%;
+    top: 50%;
+    transform: translateY(-40%) translateX(50%);
+    bottom: initial;
+    color: rgb(230, 226, 234);
+    font-weight: 500;
+
+    font-size: larger;
+    
+}
+
+.carousel-caption-dos{
+    transform: translateY(80%) translateX(80%);
+}
+
+
+
+/* mmmmmm, no funciona en responsive */
+/* .carousel-indicators{
+    transform: translateY(-400%);
+} */
+
+
+/* Card oradores */
+
+.titulo-centro{
+    text-align: center;
+}
