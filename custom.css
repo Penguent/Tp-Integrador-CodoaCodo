@@ -1,3 +1,11 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
 /* navbar */
 
 .navbar-collapse{
@@ -40,4 +48,11 @@
 
 .titulo-centro{
     text-align: center;
+}
+
+
+/* Card-horizonatal */
+
+.img-card-horizontal{
+ width: auto;   
 }
