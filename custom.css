@@ -1,5 +1,6 @@
-Margin arreglar x divs
 
+
+/* Margin arreglar x divs */
 
 body{
     margin-left: 5%;
@@ -40,21 +41,14 @@ body{
 }
 
 
-
-/* mmmmmm, no funciona en responsive */
-/* .carousel-indicators{
-    transform: translateY(-400%);
-} */
-
-
-/* Card oradores */
+/* titulos */
 
 .titulo-centro{
     text-align: center;
 }
 
 
-/* Card-horizonatal */
+/* Card-horizonatal arreglar tamaño img horizontal*/
 
 .img-card-horizontal{
  width: auto;   
