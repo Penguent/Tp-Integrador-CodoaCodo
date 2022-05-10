@@ -11,7 +11,7 @@
 <body>
     <!-- Nav -->
     
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(55, 53, 53);">
+    <nav class="navbar navbar-expand-lg navbar-light"  style="background-color: rgb(55, 53, 53);">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="/imagenes_integrador_front/codoacodo.png" alt="" width="60" height="54">
@@ -37,7 +37,7 @@
 
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators d-grid gap-2 d-md-flex justify-content-md-end">
-        <button type="button" class="btn btn-outline-secondary btn-lg" style="color: white;">Quiero ser orador</button>
+        <a href="#convierteteOrador"  class="btn btn-outline-secondary btn-lg" style="color: white;"> Quiero ser orador</a>
         <button type="button" class="btn btn-success btn-lg">Comprar tickets</button>
       </div>
       <div class="carousel-inner">
@@ -56,41 +56,43 @@
 
     <h3 class="titulo-centro" id="losOradores">Conoce a los <br> <b>ORADORES</b></h3> <br> 
 
-    <div class="row row-cols-1 row-cols-lg-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="imagenes_integrador_front/steve.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <span class="badge bg-warning text-dark">javascript</span>
-            <span class="badge bg-info text-dark">React</span>
-            <h5 class="card-title">Steave Jobs</h5>
-            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum laborum, corporis reprehenderit veritatis natus soluta magnam id nam unde, veniam ipsa ipsum provident assumenda maiores. Eos vitae cumque porro cum.</p>
+    <section>
+      <div class="row row-cols-1 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagenes_integrador_front/steve.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">javascript</span>
+              <span class="badge bg-info text-dark">React</span>
+              <h5 class="card-title">Steave Jobs</h5>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum laborum, corporis reprehenderit veritatis natus soluta magnam id nam unde, veniam ipsa ipsum provident assumenda maiores. Eos vitae cumque porro cum.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagenes_integrador_front/bill.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark">javascript</span>
+              <span class="badge bg-info text-dark">React</span>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, officiis quis eaque illum optio asperiores repudiandae obcaecati molestiae, consequuntur ducimus voluptatum suscipit aspernatur illo rem sunt quidem porro nam labore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge bg-secondary">Negocios</span>
+              <span class="badge bg-danger">Startups</span>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore officia suscipit similique tempora necessitatibus optio provident? Corporis eveniet deleniti cumque. Voluptatibus quos eaque molestias labore delectus assumenda corrupti harum.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="imagenes_integrador_front/bill.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <span class="badge bg-warning text-dark">javascript</span>
-            <span class="badge bg-info text-dark">React</span>
-            <h5 class="card-title">Bill Gates</h5>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, officiis quis eaque illum optio asperiores repudiandae obcaecati molestiae, consequuntur ducimus voluptatum suscipit aspernatur illo rem sunt quidem porro nam labore.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="imagenes_integrador_front/ada.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <span class="badge bg-secondary">Negocios</span>
-            <span class="badge bg-danger">Startups</span>
-            <h5 class="card-title">Ada Lovelace</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tempore officia suscipit similique tempora necessitatibus optio provident? Corporis eveniet deleniti cumque. Voluptatibus quos eaque molestias labore delectus assumenda corrupti harum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <br>
     <br>
@@ -118,29 +120,31 @@
       <h3 class="titulo-centro" id="convierteteOrador">Conviértete en un<br> <b>ORADOR</b></h3>
       <p class="titulo-centro">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p> <br>
 
-      <div class="row g-2">
-        <div class="col-md">
-          <div class="form-floating">
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Nombre">
-            <label for="floatingInputGrid">Nombre</label>
+      <section>
+        <div class="row g-2">
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Nombre">
+              <label for="floatingInputGrid">Nombre</label>
+            </div>
           </div>
-        </div>
-        <div class="col-md">
-          <div class="form-floating">
-            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Apellido">
-            <label for="floatingInputGrid">Apellido</label>
+          <div class="col-md">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Apellido">
+              <label for="floatingInputGrid">Apellido</label>
+            </div>
           </div>
+          </div>
+        </div> <br>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+          <p>Recuerda incluir un título para tu charla</p>
         </div>
+        <div class="d-grid gap-2">
+          <button class="btn btn-success" type="button">Enviar</button>
         </div>
-      </div> <br>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
-        <p>Recuerda incluir un título para tu charla</p>
-      </div>
-      <div class="d-grid gap-2">
-        <button class="btn btn-success" type="button">Enviar</button>
-      </div>
+      </section>
 
       <br>
       <!-- Footer -->
