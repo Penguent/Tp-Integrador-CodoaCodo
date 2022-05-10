@@ -23,9 +23,9 @@
         <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" style="color: white;" aria-current="page" href="#">La conferencia</a>
-            <a class="nav-link" style="color: rgb(158, 166, 169);" href="#">Los oradores</a>
+            <a class="nav-link" style="color: rgb(158, 166, 169);" href="#losOradores">Los oradores</a>
             <a class="nav-link" style="color: rgb(158, 166, 169);" href="#">Lugar y fecha</a>
-            <a class="nav-link" style="color: rgb(158, 166, 169);" href="#">Conviértete en orador</a>
+            <a class="nav-link" style="color: rgb(158, 166, 169);" href="#convierteteOrador">Conviértete en orador</a>
             <a class="nav-link" style="color: rgb(12, 109, 12);" href="#">Comprar tickets</a>
           </div>
         </div>
@@ -54,12 +54,12 @@
     <br><br>
     <!-- Cards Oradores -->
 
-    <h3 class="titulo-centro">Conoce a los <br> <b>ORADORES</b></h3> <br> 
+    <h3 class="titulo-centro" id="losOradores">Conoce a los <br> <b>ORADORES</b></h3> <br> 
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-lg-3 g-4">
       <div class="col">
         <div class="card h-100">
-          <img src="imagenes_integrador_front/steve.jpg" class="card-img-top" alt="..." style="height: 500px;">
+          <img src="imagenes_integrador_front/steve.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <span class="badge bg-warning text-dark">javascript</span>
             <span class="badge bg-info text-dark">React</span>
@@ -95,14 +95,14 @@
     <br>
     <br>
 
-      <!-- Card-horizontal img al costado (Bs As- Octubre) -->
+      <!-- Card-horizontal (Bs As- Octubre) -->
 
       <div class="card mb-3 text-white bg-secondary mb-3" >
         <div class="row g-0">
-          <div class="col-md-4" class="img-card-horizontal">
+          <div class="col-lg-6" class="img-card-horizontal">
             <img src="imagenes_integrador_front/honolulu.jpg" class="img-fluid rounded-start" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-lg-6">
             <div class="card-body">
               <h5 class="card-title">Bs As - Octubre</h5>
               <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos (WHAT?!). Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
@@ -115,7 +115,7 @@
       <br>
       <!-- Form - Conviertete en orador -->
 
-      <h3 class="titulo-centro">Conviértete en un<br> <b>ORADOR</b></h3>
+      <h3 class="titulo-centro" id="convierteteOrador">Conviértete en un<br> <b>ORADOR</b></h3>
       <p class="titulo-centro">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p> <br>
 
       <div class="row g-2">

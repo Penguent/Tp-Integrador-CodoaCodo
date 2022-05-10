@@ -27,17 +27,13 @@ body{
 .carousel-caption{
     width: 50%;
     top: 50%;
-    transform: translateY(-40%) translateX(50%);
+    transform: translateY(-60%) translateX(50%);
     bottom: initial;
     color: rgb(230, 226, 234);
     font-weight: 500;
 
     font-size: larger;
     
-}
-
-.carousel-caption-dos{
-    transform: translateY(80%) translateX(80%);
 }
 
 
@@ -48,8 +44,8 @@ body{
 }
 
 
-/* Card-horizonatal arreglar tamaño img horizontal*/
+/* Card-horizonatal arreglar tamaño img horizontal responsive*/
 
 .img-card-horizontal{
- width: auto;   
+ width: fit-content;   
 }
