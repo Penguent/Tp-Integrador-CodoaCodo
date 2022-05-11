@@ -1,6 +1,6 @@
 
 
-/* Margin arreglar x divs */
+/* Margin*/
 
 section{
     margin-left: 5%;
@@ -45,7 +45,7 @@ section{
 }
 
 
-/* Card-horizonatal arreglar tamaño img horizontal responsive*/
+/* Card-horizonatal*/
 
 .img-card-horizontal{
  width: fit-content;   
