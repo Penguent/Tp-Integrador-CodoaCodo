@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +38,7 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators d-grid gap-2 d-md-flex justify-content-md-end">
         <a href="#convierteteOrador"  class="btn btn-outline-secondary btn-lg" style="color: white;"> Quiero ser orador</a>
-        <button type="button" class="btn btn-success btn-lg">Comprar tickets</button>
+        <a href="/comprar-tickets.html" class="btn btn-success btn-lg">Comprar tickets</a>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -120,58 +120,62 @@
       <h3 class="titulo-centro" id="convierteteOrador">Conviértete en un<br> <b>ORADOR</b></h3>
       <p class="titulo-centro">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p> <br>
 
-      <section>
-        <div class="row g-2">
-          <div class="col-md">
-            <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Nombre">
-              <label for="floatingInputGrid">Nombre</label>
+      <section class="form-my-CSS">
+        <form action="">
+          <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Nombre">
+                <label for="floatingInputGrid">Nombre</label>
+              </div>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Apellido">
-              <label for="floatingInputGrid">Apellido</label>
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="Apellido">
+                <label for="floatingInputGrid">Apellido</label>
+              </div>
             </div>
+            </div>
+          </div> <br>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
+            <p>Recuerda incluir un título para tu charla</p>
           </div>
+          <div class="d-grid gap-2">
+            <input type="submit" class="btn btn-success" type="button" value="Enviar">
           </div>
-        </div> <br>
-        <div class="form-floating">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-          <label for="floatingTextarea2">Sobre qué quieres hablar?</label>
-          <p>Recuerda incluir un título para tu charla</p>
-        </div>
-        <div class="d-grid gap-2">
-          <button class="btn btn-success" type="button">Enviar</button>
-        </div>
+        </form>
       </section>
 
       <br>
       <!-- Footer -->
 
-      <ul class="nav justify-content-center" style="background-color: rgb(3, 70, 81);">
-        <li class="nav-item">
-          <a class="nav-link text-light" aria-current="page" href="#">Preguntas<br> frecuentes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#">Contáctanos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#">Prensa</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light">Conferencias</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light">Términos y<br> condiciones</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light">Privacidad</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light">Estudiantes</a>
-        </li>
-      </ul>
+      <footer>
+        <ul class="nav justify-content-center" style="background-color: rgb(3, 70, 81);">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="#">Preguntas<br> frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contáctanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Prensa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light">Conferencias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light">Términos y<br> condiciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light">Privacidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light">Estudiantes</a>
+          </li>
+        </ul>
+      </footer>
       <br>
 
 

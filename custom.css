@@ -50,3 +50,18 @@ section{
 .img-card-horizontal{
  width: fit-content;   
 }
+
+
+
+/* PAG-COMPRAR TICKETS */
+
+/* cards*/
+
+.card-group-myCSS{
+    justify-content: center;
+;
+}
+
+.letra-chica{
+    color: gray;
+}
