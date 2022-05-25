@@ -75,25 +75,25 @@
       <!-- Form -->
 
       <section class="align-items-center">
-        <form action="">
+        <form action="" id="formTickets">
           <div class="row g-2">
             <div class="col-md">
-              <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre" value="">
+              <input type="text" class="form-control" id="" placeholder="Nombre" value="">
             </div>
             <div class="col-md">
-              <input type="text" class="form-control" id="floatingInputGrid" placeholder="Apellido" value="">
+              <input type="text" class="form-control" id="" placeholder="Apellido" value="">
             </div>
           </div> <br>
           <div class="mb-3">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo">
+            <input type="email" class="form-control" id="" placeholder="correo">
           </div>
           <div class="row g-2">
             <div class="col-md">
-              <h6 style="font-weight: normal;">Cantidad</h4>
-              <input type="number" min="1" class="form-control" placeholder="cantidad" value="" id="cantidad-entradas">
+              <label for="cantidadEntradas" style="font-weight: normal;">Cantidad</label>
+              <input type="number" min="1" class="form-control" placeholder="cantidad" value="" id="cantidadEntradas">
             </div>
             <div class="col-md">
-              <h6 style="font-weight: normal;">Categoria</h6>
+              <label for="descuento" style="font-weight: normal;">Categoria</label>
               <select class="form-select" aria-label="Floating label select" id="descuento">
                 <option value="1">Estudiante</option>
                 <option value="2">Trainee</option>
@@ -102,11 +102,11 @@
             </div>
           </div><br>
           <div style="background-color: lightblue; height: 3em; color: rgb(8, 8, 215);height:50px;" class="rounded d-flex align-self-center">
-              <p style="margin-top: 10px;">Total a pagar: $</p>
+              <p style="margin-top: 10px;" id="totalPago" >Total a pagar: $</p>
           </div><br>
           <div class="btn-group col-12" role="group" aria-label="Basic example" style="align-items: center;">
             <input type="reset" value="Borrar" class="btn btn-outline-light rounded" style="background-color: rgb(134, 212, 92); margin-right: 2px;">
-            <input type="submit" value="Resumen" class="btn btn-outline-light rounded" style="background-color: rgb(134, 212, 92); margin-left: 2px;" id="Resumen-total+descuento">
+            <input type="button" value="Resumen" class="btn btn-outline-light rounded" style="background-color: rgb(134, 212, 92); margin-left: 2px;" onclick="totalPago(formTickets)">
           </div>
         </form>
       </section>
@@ -144,6 +144,7 @@
 
     <!-- javascript -->
 
+    <script src="/script.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
